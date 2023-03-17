@@ -3,6 +3,7 @@ package com.example.mvvm_news_app
 import android.app.Application
 import com.example.mvvm_news_app.di.component.ApplicationComponent
 import com.example.mvvm_news_app.di.module.ApplicationModule
+import com.kader.newsappkdr.worker.WorkManagerHelper
 import javax.inject.Inject
 
 class NewsApplication : Application() {
@@ -18,11 +19,11 @@ class NewsApplication : Application() {
     }
 
     private fun injectDependencies() {
-        applicationComponent = DaggerApplicationComponent
-            .builder()
-            .applicationModule(ApplicationModule(this))
-            .build()
-        applicationComponent.inject(this)
+//        applicationComponent = DaggerApplicationComponent
+//            .builder()
+//            .applicationModule(ApplicationModule(this))
+//            .build()
+//        applicationComponent.inject(this)
     }
 
     // Needed to replace the component with a test specific one

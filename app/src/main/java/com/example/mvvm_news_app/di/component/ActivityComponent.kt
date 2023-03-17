@@ -5,6 +5,11 @@ import android.content.Context
 import com.example.mvvm_news_app.di.ActivityContext
 import com.example.mvvm_news_app.di.ActivityScope
 import com.example.mvvm_news_app.di.module.ActivityModule
+import com.example.mvvm_news_app.ui.countries.CountryActivity
+import com.example.mvvm_news_app.ui.languages.LanguageActivity
+import com.example.mvvm_news_app.ui.main.MainActivity
+import com.example.mvvm_news_app.ui.news_sources.NewsSourcesActivity
+import com.example.mvvm_news_app.ui.search.SearchActivity
 import com.example.mvvm_news_app.ui.topheadline.TopHeadlineActivity
 import dagger.Component
 

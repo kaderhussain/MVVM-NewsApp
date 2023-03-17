@@ -17,6 +17,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.mvvm_news_app.NewsApplication
 import com.example.mvvm_news_app.databinding.ActivityTopHeadlineBinding
 import com.example.mvvm_news_app.data.local.entity.Article
+import com.example.mvvm_news_app.di.component.DaggerActivityComponent
 import com.example.mvvm_news_app.di.module.ActivityModule
 import com.example.mvvm_news_app.utils.Status
 import kotlinx.coroutines.launch
