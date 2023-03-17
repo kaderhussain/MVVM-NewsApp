@@ -106,36 +106,107 @@ kaptAndroidTest "com.google.dagger:dagger-compiler:2.42"
 ```
 ## The Complete Project Folder Structure
 ```
-├── NewsApplication.kt
-├── data
-│   ├── api
-│   ├── local
-│   ├── model
-│   └── repository
-├── di
-│   ├── component
-│   ├── module
-│   ├── qualifiers.kt
-│   └── scopes.kt
-├── ui
-│   ├── MainActivity.kt
-│   ├── base
-│   ├── country
-│   ├── language
-│   ├── newsListScreen
-│   ├── pagination
-│   ├── search
-│   ├── sources
-│   └── topheadline
-└── utils
-    ├── AppConstant.kt
-    ├── DispatcherProvider.kt
-    ├── Extentions.kt
-    ├── NetworkHelper.kt
-    ├── Resource.kt
-    ├── Status.kt
-    ├── TypeAliases.kt
-    └── network
+│   NewsApplication.kt
+│   
+├───data
+│   ├───api
+│   │       AuthInterceptor.kt
+│   │       NetworkHelper.kt
+│   │       NetworkServices.kt
+│   │       
+│   ├───local
+│   │   │   AppDatabase.kt
+│   │   │   DatabaseHelper.kt
+│   │   │   DatabaseHelperImpl.kt
+│   │   │   
+│   │   ├───dao
+│   │   │       ArticleDao.kt
+│   │   │       RemoteKeysDao.kt
+│   │   │       
+│   │   └───entity
+│   │           Article.kt
+│   │           ArticleRemoteKeys.kt
+│   │           Source.kt
+│   │           
+│   ├───model
+│   │       ApiArticle.kt
+│   │       ApiSource.kt
+│   │       CountriesMap.kt
+│   │       CountriesResponse.kt
+│   │       Country.kt
+│   │       Language.kt
+│   │       NewsSources.kt
+│   │       NewsSourcesResponse.kt
+│   │       SearchNewsResponse.kt
+│   │       TopHeadlinesResponse.kt
+│   │       
+│   ├───paging
+│   │       SearchPagingSource.kt
+│   │       TopHeadlineRemoteMediator.kt
+│   │       
+│   └───repository
+│           CountriesRepository.kt
+│           LanguageRepository.kt
+│           NewsSourcesRepository.kt
+│           SearchRepository.kt
+│           TopHeadlineRepository.kt
+│           
+├───di
+│   │   qualifiers.kt
+│   │   scopes.kt
+│   │   
+│   ├───component
+│   │       ActivityComponent.kt
+│   │       ApplicationComponent.kt
+│   │       
+│   └───module
+│           ActivityModule.kt
+│           ApplicationModule.kt
+│           
+├───ui
+│   ├───base
+│   │       CommonClass.kt
+│   │       ViewModelProviderFactory.kt
+│   │       
+│   ├───countries
+│   │       CountryActivity.kt
+│   │       CountryAdapter.kt
+│   │       CountryViewModel.kt
+│   │       
+│   ├───languages
+│   │       LanguageActivity.kt
+│   │       LanguageAdapter.kt
+│   │       LanguageViewModel.kt
+│   │       
+│   ├───main
+│   │       MainActivity.kt
+│   │       
+│   ├───news_sources
+│   │       NewsSourcesActivity.kt
+│   │       NewsSourcesAdapter.kt
+│   │       NewsSourcesViewModel.kt
+│   │       
+│   ├───search
+│   │       SearchActivity.kt
+│   │       SearchViewAdapter.kt
+│   │       SearchViewModel.kt
+│   │       
+│   └───topheadline
+│           TopHeadlineActivity.kt
+│           TopHeadlineAdapter.kt
+│           TopHeadlineViewModel.kt
+│           
+├───utils
+│       AppConstant.kt
+│       DispatcherProvider.kt
+│       Extension.kt
+│       Resource.kt
+│       Status.kt
+│       
+└───worker
+        MidnightWorker.kt
+        WorkManagerHelper.kt
+
 
 ```
 
