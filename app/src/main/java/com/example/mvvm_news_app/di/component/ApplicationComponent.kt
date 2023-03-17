@@ -1,7 +1,7 @@
 package com.kader.newsappkdr.di.component
 
 import android.content.Context
-import com.kader.newsappkdr.NewsApplication
+import com.example.mvvm_news_app.NewsApplication
 import com.kader.newsappkdr.data.api.NetworkHelper
 import com.kader.newsappkdr.data.api.NetworkServices
 import com.kader.newsappkdr.data.local.DatabaseHelperImpl

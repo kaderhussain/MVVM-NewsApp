@@ -14,10 +14,9 @@ import androidx.paging.ExperimentalPagingApi
 import androidx.paging.PagingData
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.kader.newsappkdr.NewsApplication
+import com.example.mvvm_news_app.NewsApplication
+import com.example.mvvm_news_app.databinding.ActivityTopHeadlineBinding
 import com.kader.newsappkdr.data.local.entity.Article
-import com.kader.newsappkdr.databinding.ActivityTopHeadlineBinding
-import com.kader.newsappkdr.di.component.DaggerActivityComponent
 import com.kader.newsappkdr.di.module.ActivityModule
 import com.kader.newsappkdr.utils.Status
 import kotlinx.coroutines.launch
