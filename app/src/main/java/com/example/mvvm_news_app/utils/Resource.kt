@@ -1,4 +1,4 @@
-package com.kader.newsappkdr.utils
+package com.example.mvvm_news_app.utils
 
 sealed class Resource<T>(val status: Status, val data: T?, val message: String?) {
     class Success<T>(data: T?) : Resource<T>(Status.SUCCESS, data, null)

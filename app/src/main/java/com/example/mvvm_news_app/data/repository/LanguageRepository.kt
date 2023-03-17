@@ -1,7 +1,7 @@
-package com.kader.newsappkdr.data.repository
+package com.example.mvvm_news_app.data.repository
 
-import com.kader.newsappkdr.data.model.Language
-import com.kader.newsappkdr.utils.AppConstant
+import com.example.mvvm_news_app.data.model.Language
+import com.example.mvvm_news_app.utils.AppConstant
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import javax.inject.Inject

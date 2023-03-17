@@ -1,9 +1,9 @@
-package com.kader.newsappkdr.data.api
+package com.example.mvvm_news_app.data.api
 
-import com.kader.newsappkdr.data.model.CountriesResponse
-import com.kader.newsappkdr.data.model.NewsSourcesResponse
-import com.kader.newsappkdr.data.model.SearchNewsResponse
-import com.kader.newsappkdr.data.model.TopHeadlinesResponse
+import com.example.mvvm_news_app.data.model.CountriesResponse
+import com.example.mvvm_news_app.data.model.NewsSourcesResponse
+import com.example.mvvm_news_app.data.model.SearchNewsResponse
+import com.example.mvvm_news_app.data.model.TopHeadlinesResponse
 import retrofit2.http.GET
 import retrofit2.http.Query
 import javax.inject.Singleton

@@ -1,10 +1,10 @@
-package com.kader.newsappkdr.ui.languages
+package com.example.mvvm_news_app.ui.languages
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.kader.newsappkdr.data.model.Language
-import com.kader.newsappkdr.databinding.CountriesItemLayoutBinding
+import com.example.mvvm_news_app.data.model.Language
+import com.example.mvvm_news_app.databinding.CountriesItemLayoutBinding
 
 class LanguageAdapter(
     private val languageList: ArrayList<Language>

@@ -1,8 +1,8 @@
-package com.kader.newsappkdr.data.repository
+package com.example.mvvm_news_app.data.repository
 
-import com.kader.newsappkdr.data.api.NetworkServices
-import com.kader.newsappkdr.data.model.Country
-import com.kader.newsappkdr.utils.AppConstant
+import com.example.mvvm_news_app.data.api.NetworkServices
+import com.example.mvvm_news_app.data.model.Country
+import com.example.mvvm_news_app.utils.AppConstant
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import javax.inject.Inject

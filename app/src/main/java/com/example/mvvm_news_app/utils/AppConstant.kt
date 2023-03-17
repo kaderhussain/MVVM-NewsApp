@@ -1,8 +1,8 @@
-package com.kader.newsappkdr.utils
+package com.example.mvvm_news_app.utils
 
 import android.util.Log
-import com.kader.newsappkdr.data.model.Country
-import com.kader.newsappkdr.data.model.Language
+import com.example.mvvm_news_app.data.model.Country
+import com.example.mvvm_news_app.data.model.Language
 
 object AppConstant {
 

@@ -1,11 +1,11 @@
-package com.kader.newsappkdr.ui.countries
+package com.example.mvvm_news_app.ui.countries
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.kader.newsappkdr.data.model.Country
-import com.kader.newsappkdr.databinding.CountriesItemLayoutBinding
-import com.kader.newsappkdr.ui.topheadline.TopHeadlineActivity
+import com.example.mvvm_news_app.data.model.Country
+import com.example.mvvm_news_app.databinding.CountriesItemLayoutBinding
+import com.example.mvvm_news_app.ui.topheadline.TopHeadlineActivity
 
 class CountryAdapter(
     private val countryList: ArrayList<Country>

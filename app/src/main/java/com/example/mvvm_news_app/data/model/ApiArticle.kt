@@ -1,7 +1,7 @@
-package com.kader.newsappkdr.data.model
+package com.example.mvvm_news_app.data.model
 
 import com.google.gson.annotations.SerializedName
-import com.kader.newsappkdr.data.local.entity.Article
+import com.example.mvvm_news_app.data.local.entity.Article
 
 data class ApiArticle(
     @SerializedName("title")

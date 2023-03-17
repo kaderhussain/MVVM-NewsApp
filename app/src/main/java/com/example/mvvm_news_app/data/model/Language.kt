@@ -1,4 +1,4 @@
-package com.kader.newsappkdr.data.model
+package com.example.mvvm_news_app.data.model
 
 data class Language(
     val id: String = "",

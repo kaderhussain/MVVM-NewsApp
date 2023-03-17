@@ -1,11 +1,11 @@
-package com.kader.newsappkdr.data.paging
+package com.example.mvvm_news_app.data.paging
 
 import android.util.Log
 import androidx.paging.PagingSource
 import androidx.paging.PagingState
-import com.kader.newsappkdr.data.api.NetworkServices
-import com.kader.newsappkdr.data.model.ApiArticle
-import com.kader.newsappkdr.utils.AppConstant.LAST_PAGE
+import com.example.mvvm_news_app.data.api.NetworkServices
+import com.example.mvvm_news_app.data.model.ApiArticle
+import com.example.mvvm_news_app.utils.AppConstant.LAST_PAGE
 
 class SearchPagingSource (private val networkServices: NetworkServices,private val query:String) : PagingSource<Int, ApiArticle>() {
 

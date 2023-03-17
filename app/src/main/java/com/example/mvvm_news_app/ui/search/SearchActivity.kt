@@ -1,4 +1,4 @@
-package com.kader.newsappkdr.ui.search
+package com.example.mvvm_news_app.ui.search
 
 import android.content.Context
 import android.content.Intent
@@ -9,12 +9,12 @@ import androidx.lifecycle.lifecycleScope
 import androidx.paging.PagingData
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.kader.newsappkdr.NewsApplication
-import com.kader.newsappkdr.data.model.ApiArticle
-import com.kader.newsappkdr.databinding.ActivitySearchBinding
-import com.kader.newsappkdr.di.component.DaggerActivityComponent
-import com.kader.newsappkdr.di.module.ActivityModule
-import com.kader.newsappkdr.utils.getQueryTextChangeStateFlow
+import com.example.mvvm_news_app.NewsApplication
+import com.example.mvvm_news_app.data.model.ApiArticle
+import com.example.mvvm_news_app.databinding.ActivitySearchBinding
+import com.example.mvvm_news_app.di.component.DaggerActivityComponent
+import com.example.mvvm_news_app.di.module.ActivityModule
+import com.example.mvvm_news_app.utils.getQueryTextChangeStateFlow
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch

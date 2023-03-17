@@ -1,4 +1,4 @@
-package com.kader.newsappkdr.utils
+package com.example.mvvm_news_app.utils
 
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.Dispatchers

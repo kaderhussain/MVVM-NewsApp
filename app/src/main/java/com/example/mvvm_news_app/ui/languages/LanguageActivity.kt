@@ -1,4 +1,4 @@
-package com.kader.newsappkdr.ui.languages
+package com.example.mvvm_news_app.ui.languages
 
 import android.content.Context
 import android.content.Intent
@@ -11,12 +11,12 @@ import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.kader.newsappkdr.NewsApplication
-import com.kader.newsappkdr.data.model.Language
-import com.kader.newsappkdr.databinding.ActivityLanguageBinding
-import com.kader.newsappkdr.di.component.DaggerActivityComponent
-import com.kader.newsappkdr.di.module.ActivityModule
-import com.kader.newsappkdr.utils.Status
+import com.example.mvvm_news_app.NewsApplication
+import com.example.mvvm_news_app.data.model.Language
+import com.example.mvvm_news_app.databinding.ActivityLanguageBinding
+import com.example.mvvm_news_app.di.component.DaggerActivityComponent
+import com.example.mvvm_news_app.di.module.ActivityModule
+import com.example.mvvm_news_app.utils.Status
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 

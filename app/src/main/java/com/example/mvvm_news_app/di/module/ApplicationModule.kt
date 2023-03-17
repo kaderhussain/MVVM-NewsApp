@@ -1,16 +1,16 @@
-package com.kader.newsappkdr.di.module
+package com.example.mvvm_news_app.di.module
 
 import android.content.Context
 import androidx.room.Room
-import com.kader.newsappkdr.NewsApplication
-import com.kader.newsappkdr.data.api.AuthInterceptor
-import com.kader.newsappkdr.data.api.NetworkServices
-import com.kader.newsappkdr.data.local.AppDatabase
-import com.kader.newsappkdr.di.ApiKey
-import com.kader.newsappkdr.di.ApplicationContext
-import com.kader.newsappkdr.di.BaseUrl
-import com.kader.newsappkdr.di.DatabaseName
-import com.kader.newsappkdr.utils.AppConstant
+import com.example.mvvm_news_app.NewsApplication
+import com.example.mvvm_news_app.data.api.AuthInterceptor
+import com.example.mvvm_news_app.data.api.NetworkServices
+import com.example.mvvm_news_app.data.local.AppDatabase
+import com.example.mvvm_news_app.di.ApiKey
+import com.example.mvvm_news_app.di.ApplicationContext
+import com.example.mvvm_news_app.di.BaseUrl
+import com.example.mvvm_news_app.di.DatabaseName
+import com.example.mvvm_news_app.utils.AppConstant
 import dagger.Module
 import dagger.Provides
 import okhttp3.OkHttpClient

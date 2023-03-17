@@ -1,7 +1,7 @@
-package com.kader.newsappkdr.data.local
+package com.example.mvvm_news_app.data.local
 
 import androidx.paging.PagingSource
-import com.kader.newsappkdr.data.local.entity.Article
+import com.example.mvvm_news_app.data.local.entity.Article
 import kotlinx.coroutines.flow.Flow
 
 interface DatabaseHelper {

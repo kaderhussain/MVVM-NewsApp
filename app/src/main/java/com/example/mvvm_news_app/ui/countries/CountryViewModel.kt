@@ -1,10 +1,10 @@
-package com.kader.newsappkdr.ui.countries
+package com.example.mvvm_news_app.ui.countries
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.kader.newsappkdr.data.model.Country
-import com.kader.newsappkdr.data.repository.CountriesRepository
-import com.kader.newsappkdr.utils.Resource
+import com.example.mvvm_news_app.data.model.Country
+import com.example.mvvm_news_app.data.repository.CountriesRepository
+import com.example.mvvm_news_app.utils.Resource
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.catch

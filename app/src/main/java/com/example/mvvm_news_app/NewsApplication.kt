@@ -1,8 +1,8 @@
 package com.example.mvvm_news_app
 
 import android.app.Application
-import com.kader.newsappkdr.di.component.ApplicationComponent
-import com.kader.newsappkdr.di.module.ApplicationModule
+import com.example.mvvm_news_app.di.component.ApplicationComponent
+import com.example.mvvm_news_app.di.module.ApplicationModule
 import javax.inject.Inject
 
 class NewsApplication : Application() {

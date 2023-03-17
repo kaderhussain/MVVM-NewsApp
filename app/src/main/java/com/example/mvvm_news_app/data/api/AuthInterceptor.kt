@@ -1,6 +1,6 @@
-package com.kader.newsappkdr.data.api
+package com.example.mvvm_news_app.data.api
 
-import com.kader.newsappkdr.di.ApiKey
+import com.example.mvvm_news_app.di.ApiKey
 import okhttp3.Interceptor
 import okhttp3.Response
 import javax.inject.Inject

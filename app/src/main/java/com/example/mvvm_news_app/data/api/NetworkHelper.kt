@@ -1,10 +1,10 @@
-package com.kader.newsappkdr.data.api
+package com.example.mvvm_news_app.data.api
 
 import android.content.Context
 import android.net.ConnectivityManager
 import android.net.NetworkCapabilities
 import android.util.Log
-import com.kader.newsappkdr.di.ApplicationContext
+import com.example.mvvm_news_app.di.ApplicationContext
 import javax.inject.Inject
 import javax.inject.Singleton
 

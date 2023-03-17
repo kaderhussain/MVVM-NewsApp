@@ -1,14 +1,14 @@
-package com.kader.newsappkdr.data.repository
+package com.example.mvvm_news_app.data.repository
 
 import androidx.paging.ExperimentalPagingApi
 import androidx.paging.Pager
 import androidx.paging.PagingConfig
-import com.kader.newsappkdr.data.api.NetworkServices
-import com.kader.newsappkdr.data.local.AppDatabase
-import com.kader.newsappkdr.data.local.DatabaseHelperImpl
-import com.kader.newsappkdr.data.local.entity.Article
-import com.kader.newsappkdr.data.model.toArticle
-import com.kader.newsappkdr.data.paging.TopHeadlineRemoteMediator
+import com.example.mvvm_news_app.data.api.NetworkServices
+import com.example.mvvm_news_app.data.local.AppDatabase
+import com.example.mvvm_news_app.data.local.DatabaseHelperImpl
+import com.example.mvvm_news_app.data.local.entity.Article
+import com.example.mvvm_news_app.data.model.toArticle
+import com.example.mvvm_news_app.data.paging.TopHeadlineRemoteMediator
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flatMapConcat
 import kotlinx.coroutines.flow.flow

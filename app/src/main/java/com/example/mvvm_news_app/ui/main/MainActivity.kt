@@ -1,17 +1,17 @@
-package com.kader.newsappkdr.ui.main
+package com.example.mvvm_news_app.ui.main
 
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
-import com.kader.newsappkdr.NewsApplication
-import com.kader.newsappkdr.databinding.ActivityMainBinding
-import com.kader.newsappkdr.di.component.DaggerActivityComponent
-import com.kader.newsappkdr.di.module.ActivityModule
-import com.kader.newsappkdr.ui.countries.CountryActivity
-import com.kader.newsappkdr.ui.languages.LanguageActivity
-import com.kader.newsappkdr.ui.news_sources.NewsSourcesActivity
-import com.kader.newsappkdr.ui.search.SearchActivity
-import com.kader.newsappkdr.ui.topheadline.TopHeadlineActivity
+import com.example.mvvm_news_app.NewsApplication
+import com.example.mvvm_news_app.databinding.ActivityMainBinding
+import com.example.mvvm_news_app.di.component.DaggerActivityComponent
+import com.example.mvvm_news_app.di.module.ActivityModule
+import com.example.mvvm_news_app.ui.countries.CountryActivity
+import com.example.mvvm_news_app.ui.languages.LanguageActivity
+import com.example.mvvm_news_app.ui.news_sources.NewsSourcesActivity
+import com.example.mvvm_news_app.ui.search.SearchActivity
+import com.example.mvvm_news_app.ui.topheadline.TopHeadlineActivity
 
 class MainActivity : AppCompatActivity() {
 

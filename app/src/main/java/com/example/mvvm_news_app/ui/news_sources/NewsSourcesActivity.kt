@@ -1,4 +1,4 @@
-package com.kader.newsappkdr.ui.news_sources
+package com.example.mvvm_news_app.ui.news_sources
 
 import android.content.Context
 import android.content.Intent
@@ -11,12 +11,12 @@ import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.kader.newsappkdr.NewsApplication
-import com.kader.newsappkdr.data.model.NewsSources
-import com.kader.newsappkdr.databinding.ActivityNewsSourcesBinding
-import com.kader.newsappkdr.di.component.DaggerActivityComponent
-import com.kader.newsappkdr.di.module.ActivityModule
-import com.kader.newsappkdr.utils.Status
+import com.example.mvvm_news_app.NewsApplication
+import com.example.mvvm_news_app.data.model.NewsSources
+import com.example.mvvm_news_app.databinding.ActivityNewsSourcesBinding
+import com.example.mvvm_news_app.di.component.DaggerActivityComponent
+import com.example.mvvm_news_app.di.module.ActivityModule
+import com.example.mvvm_news_app.utils.Status
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 

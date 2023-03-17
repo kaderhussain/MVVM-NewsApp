@@ -1,11 +1,11 @@
-package com.kader.newsappkdr.di.component
+package com.example.mvvm_news_app.di.component
 
 import android.app.Activity
 import android.content.Context
-import com.kader.newsappkdr.di.ActivityContext
-import com.kader.newsappkdr.di.ActivityScope
-import com.kader.newsappkdr.di.module.ActivityModule
-import com.kader.newsappkdr.ui.topheadline.TopHeadlineActivity
+import com.example.mvvm_news_app.di.ActivityContext
+import com.example.mvvm_news_app.di.ActivityScope
+import com.example.mvvm_news_app.di.module.ActivityModule
+import com.example.mvvm_news_app.ui.topheadline.TopHeadlineActivity
 import dagger.Component
 
 @ActivityScope

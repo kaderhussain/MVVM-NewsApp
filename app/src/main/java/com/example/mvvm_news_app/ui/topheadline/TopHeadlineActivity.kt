@@ -1,4 +1,4 @@
-package com.kader.newsappkdr.ui.topheadline
+package com.example.mvvm_news_app.ui.topheadline
 
 import android.content.Context
 import android.content.Intent
@@ -16,9 +16,9 @@ import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.mvvm_news_app.NewsApplication
 import com.example.mvvm_news_app.databinding.ActivityTopHeadlineBinding
-import com.kader.newsappkdr.data.local.entity.Article
-import com.kader.newsappkdr.di.module.ActivityModule
-import com.kader.newsappkdr.utils.Status
+import com.example.mvvm_news_app.data.local.entity.Article
+import com.example.mvvm_news_app.di.module.ActivityModule
+import com.example.mvvm_news_app.utils.Status
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 

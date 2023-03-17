@@ -1,4 +1,4 @@
-package com.kader.newsappkdr.di
+package com.example.mvvm_news_app.di
 
 import javax.inject.Qualifier
 

@@ -1,10 +1,10 @@
-package com.kader.newsappkdr.ui.languages
+package com.example.mvvm_news_app.ui.languages
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.kader.newsappkdr.data.model.Language
-import com.kader.newsappkdr.data.repository.LanguageRepository
-import com.kader.newsappkdr.utils.Resource
+import com.example.mvvm_news_app.data.model.Language
+import com.example.mvvm_news_app.data.repository.LanguageRepository
+import com.example.mvvm_news_app.utils.Resource
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.catch

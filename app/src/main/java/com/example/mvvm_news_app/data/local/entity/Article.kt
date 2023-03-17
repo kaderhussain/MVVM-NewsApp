@@ -1,4 +1,4 @@
-package com.kader.newsappkdr.data.local.entity
+package com.example.mvvm_news_app.data.local.entity
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

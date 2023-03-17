@@ -1,4 +1,4 @@
-package com.kader.newsappkdr.ui.search
+package com.example.mvvm_news_app.ui.search
 
 import android.net.Uri
 import android.view.LayoutInflater
@@ -9,9 +9,9 @@ import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.kader.newsappkdr.data.local.entity.Article
-import com.kader.newsappkdr.data.model.ApiArticle
-import com.kader.newsappkdr.databinding.TopHeadlineItemLayoutBinding
+import com.example.mvvm_news_app.data.local.entity.Article
+import com.example.mvvm_news_app.data.model.ApiArticle
+import com.example.mvvm_news_app.databinding.TopHeadlineItemLayoutBinding
 
 class SearchViewAdapter(
 ) : PagingDataAdapter<ApiArticle, SearchViewAdapter.DataViewHolder>(differCallback) {

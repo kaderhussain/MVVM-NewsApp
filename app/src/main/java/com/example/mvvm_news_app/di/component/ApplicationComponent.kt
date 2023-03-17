@@ -1,14 +1,14 @@
-package com.kader.newsappkdr.di.component
+package com.example.mvvm_news_app.di.component
 
 import android.content.Context
 import com.example.mvvm_news_app.NewsApplication
-import com.kader.newsappkdr.data.api.NetworkHelper
-import com.kader.newsappkdr.data.api.NetworkServices
-import com.kader.newsappkdr.data.local.DatabaseHelperImpl
-import com.kader.newsappkdr.data.repository.*
-import com.kader.newsappkdr.di.ApplicationContext
-import com.kader.newsappkdr.di.module.ApplicationModule
-import com.kader.newsappkdr.utils.DefaultDispatcher
+import com.example.mvvm_news_app.data.api.NetworkHelper
+import com.example.mvvm_news_app.data.api.NetworkServices
+import com.example.mvvm_news_app.data.local.DatabaseHelperImpl
+import com.example.mvvm_news_app.data.repository.*
+import com.example.mvvm_news_app.di.ApplicationContext
+import com.example.mvvm_news_app.di.module.ApplicationModule
+import com.example.mvvm_news_app.utils.DefaultDispatcher
 import dagger.Component
 import javax.inject.Singleton
 

@@ -1,11 +1,11 @@
-package com.kader.newsappkdr.ui.news_sources
+package com.example.mvvm_news_app.ui.news_sources
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.kader.newsappkdr.data.model.NewsSources
-import com.kader.newsappkdr.data.repository.NewsSourcesRepository
-import com.kader.newsappkdr.utils.DispatcherProvider
-import com.kader.newsappkdr.utils.Resource
+import com.example.mvvm_news_app.data.model.NewsSources
+import com.example.mvvm_news_app.data.repository.NewsSourcesRepository
+import com.example.mvvm_news_app.utils.DispatcherProvider
+import com.example.mvvm_news_app.utils.Resource
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.catch

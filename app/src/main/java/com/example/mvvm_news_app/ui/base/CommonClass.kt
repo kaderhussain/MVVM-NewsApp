@@ -1,4 +1,4 @@
-package com.kader.newsappkdr.ui.base
+package com.example.mvvm_news_app.ui.base
 
 class CommonClass() {
 

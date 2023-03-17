@@ -1,10 +1,10 @@
-package com.kader.newsappkdr.ui.news_sources
+package com.example.mvvm_news_app.ui.news_sources
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.kader.newsappkdr.data.model.NewsSources
-import com.kader.newsappkdr.databinding.NewsSourcesItemLayoutBinding
+import com.example.mvvm_news_app.data.model.NewsSources
+import com.example.mvvm_news_app.databinding.NewsSourcesItemLayoutBinding
 
 class NewsSourcesAdapter(
     private val newSourceList: ArrayList<NewsSources>

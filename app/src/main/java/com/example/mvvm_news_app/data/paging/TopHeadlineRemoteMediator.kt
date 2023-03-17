@@ -1,4 +1,4 @@
-package com.kader.newsappkdr.data.paging
+package com.example.mvvm_news_app.data.paging
 
 import android.util.Log
 import androidx.paging.ExperimentalPagingApi
@@ -6,12 +6,12 @@ import androidx.paging.LoadType
 import androidx.paging.PagingState
 import androidx.paging.RemoteMediator
 import androidx.room.withTransaction
-import com.kader.newsappkdr.data.api.NetworkServices
-import com.kader.newsappkdr.data.local.AppDatabase
-import com.kader.newsappkdr.data.local.entity.Article
-import com.kader.newsappkdr.data.local.entity.ArticleRemoteKeys
-import com.kader.newsappkdr.data.model.toArticle
-import com.kader.newsappkdr.utils.AppConstant.LAST_PAGE
+import com.example.mvvm_news_app.data.api.NetworkServices
+import com.example.mvvm_news_app.data.local.AppDatabase
+import com.example.mvvm_news_app.data.local.entity.Article
+import com.example.mvvm_news_app.data.local.entity.ArticleRemoteKeys
+import com.example.mvvm_news_app.data.model.toArticle
+import com.example.mvvm_news_app.utils.AppConstant.LAST_PAGE
 
 @ExperimentalPagingApi
 class TopHeadlineRemoteMediator(
